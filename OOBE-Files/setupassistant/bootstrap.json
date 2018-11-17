@@ -7,7 +7,6 @@
       "packageid": "com.airwatch.mac.agent",
       "type": "package", 
       "url": "https://github.com/Sigma902/macOSBootstrap/raw/master/OOBE-Files/setupassistant/01-VMwareWorkspaceONEIntelligentHub.pkg",
-      "url": "https://github.com/Sigma902/macOSBootstrap/blob/master/OOBE-Files/setupassistant/01-VMwareWorkspaceONEIntelligentHub.pkg",
       "version": "4.0.0"
     }
     {
@@ -17,7 +16,6 @@
         "packageid": "menu.nomad.DEPNotify",
         "type": "package",
         "url": "https://github.com/Sigma902/macOSBootstrap/raw/master/OOBE-Files/setupassistant/02-DEPNotify-1.0.pkg",
-        "url": "https://github.com/Sigma902/macOSBootstrap/blob/master/OOBE-Files/setupassistant/02-DEPNotify-1.0.pkg",
         "version": "1.1.2"
     }
   ],
