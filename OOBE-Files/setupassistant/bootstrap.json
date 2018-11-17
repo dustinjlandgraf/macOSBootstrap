@@ -1,0 +1,22 @@
+{  
+"setupassistant": [
+    {
+      "file": "/Library/Application Support/installapplications/01-VMwareWorkspaceONEIntelligentHub.pkg",
+      "hash": "b7d6f7033d52db3cd8cda4c98f6647f39b8d991414a109d1dcd1f4b34c0a25be",
+      "name": "01-VMwareWorkspaceONEIntelligentHub.pkg",
+      "packageid": "com.airwatch.mac.agent",
+      "type": "package", 
+      "url": "https://github.com/Sigma902/macOSBootstrap/blob/master/OOBE-Files/setupassistant/01-VMwareWorkspaceONEIntelligentHub.pkg",
+      "version": "4.0.0"
+    }
+    {
+        "file": "/Library/Application Support/installapplications/02-DEPNotify-1.0.pkg",
+        "hash": "7329c38aa4a5def61c4bfec888dbf126aa24561e635a810123419bf179aed66c",
+        "name": "02-DEPNotify-1.0.pkg",
+        "packageid": "menu.nomad.DEPNotify",
+        "type": "package",
+        "url": "https://github.com/Sigma902/macOSBootstrap/blob/master/OOBE-Files/setupassistant/02-DEPNotify-1.0.pkg",
+        "version": "1.1.2"
+    }
+  ],
+}
