@@ -11,6 +11,7 @@
 	],
 	"setupassistant": [
 		{
+		  "name": "Serialize for Office 2019",
 		  "file": "/Library/Application Support/installapplications/Microsoft_Office_2019_VL_Serializer.pkg",
 		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/setupassistant/Microsoft_Office_2019_VL_Serializer.pkg",
 		  "hash": "4b3050ec8597ac2971abd32d00bffdb9cc285e3b905ae11d0fb0f37ee0bbc97f",
