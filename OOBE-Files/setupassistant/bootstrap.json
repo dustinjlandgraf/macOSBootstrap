@@ -1,61 +1,29 @@
-{
-"setupassistant": [
-    {
-      "file": "/Library/Application Support/installapplications/01-VMwareWorkspaceONEIntelligentHub.pkg",
-      "hash": "b7d6f7033d52db3cd8cda4c98f6647f39b8d991414a109d1dcd1f4b34c0a25be",
-      "name": "01-VMwareWorkspaceONEIntelligentHub.pkg",
-      "packageid": "com.airwatch.mac.agent",
-      "type": "package", 
-      "url": "https://github.com/Sigma902/macOSBootstrap/raw/master/OOBE-Files/setupassistant/01-VMwareWorkspaceONEIntelligentHub.pkg",
-      "version": "4.0.0"
-    },
-    {
-        "file": "/Library/Application Support/installapplications/02-DEPNotify-1.0.pkg",
-        "hash": "7329c38aa4a5def61c4bfec888dbf126aa24561e635a810123419bf179aed66c",
-        "name": "02-DEPNotify-1.0.pkg",
-        "packageid": "menu.nomad.DEPNotify",
-        "type": "package",
-        "url": "https://github.com/Sigma902/macOSBootstrap/raw/master/OOBE-Files/setupassistant/02-DEPNotify-1.0.pkg",
-        "version": "1.1.2"
-    },
-    {
-       "file": "/Library/Application Support/installapplications/03-Microsoft_Office_2016_VL_Serializer_2.0.pkg",
-       "hash": "7a8dcb3b2fe131460e534f6a40ef19d99aa2a2ea1edfa01cabbca329ea197915",
-       "name": "03-Microsoft_Office_2016_VL_Serializer_2.0.pkg",
-       "packageid": "com.microsoft.pkg.licensing",
-       "type": "package",
-       "url": "https://github.com/Sigma902/macOSBootstrap/raw/master/OOBE-Files/setupassistant/03-Microsoft_Office_2016_VL_Serializer_2.0.pkg",
-       "version": "15.37.17080500"
-   }
-  ],
-    "userland": [
-     {
-         "donotwait": true,
-         "file": "/Library/Application Support/installapplications/caffeinate.py",
-         "hash": "92bb078979917a745febdfa10256831dfb4fb46ed0628af3b1e04bf5bbede910",
-         "name": "Caffeinate Machine",
-         "type": "rootscript",
-         "url": "https://raw.githubusercontent.com/erikng/installapplicationsdemo/master/installapplications/scripts/root/caffeinate.py"
-     },
-     {
-         "file": "/Library/Application Support/installapplications/setTimeServer.sh",
-         "hash": "8aa4be0283652cce591b1bd55d41b44922a3655d200d79b0cb1019d5af3aeb57",
-         "name": "Time Server",
-         "type": "rootscript",
-         "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/userland/setTimeServer.sh"
-     },
-     {
-         "file": "/Library/Application Support/installapplications/fix_file_perms.sh",
-         "hash": "cd16659dbca1bde1cfd079b6279b1cc0848538e2a964d0f6d2913ff2b36e4c75",
-         "name": "Permissions Check",
-         "type": "rootscript",
-         "url": "https://github.com/Sigma902/macOSBootstrap/raw/master/OOBE-Files/userland/fix_file_perms.sh"
-     },
-     {
-         "file": "/Library/Application Support/installapplications/depnotify_end.py",
-         "hash": "8654428ada3b861e07ef46bbb160dc06be2ea62b3d961faccb6a8fe7539f6a65",
-         "name": "DEPNotify End",
-         "type": "rootscript",
-         "url": "https://raw.githubusercontent.com/erikng/installapplicationsdemo/master/installapplications/scripts/root/depnotify_end.py"
-     }
+{  
+	"setupassistant": [
+		{
+		  "file": "/Library/Application Support/installapplications/01-DEPNotify-Example-1.0.pkg",
+		  "hash": "accac931baf5aa6b2b528af321772b99564070d7c16a8ec4a39cebc4a7b2c122",
+		  "name": "01-DEPNotify-Example-1.0.pkg",
+		  "packageid": "com.vmware.airwatch.depnotify",
+		  "type": "package", 
+		  "url": "https://github.com/Sigma902/macOSBootstrap/raw/master/OOBE-Files/setupassistant/01-DEPNotify-Example-1.0.pkg",
+		  "version": "1.0"
+		}
+	],
+	"userland": [
+		{
+		  "file": "/Library/Application Support/installapplications/setTimeServer.sh",
+  		  "hash": "dddf07821ec3de7978a92c38dd769c0c9ab4b59ed6467e37078bce0e65cbdf8c",
+  		  "name": "setTimeServer.sh",
+  		  "type": "rootscript",
+		  "url": "https://github.com/Sigma902/macOSBootstrap/raw/master/OOBE-Files/userland/setTimeServer.sh"
+		},
+		{
+		  "file": "/Library/Application Support/installapplications/fix_file_perms.sh",
+  		  "hash": "cd16659dbca1bde1cfd079b6279b1cc0848538e2a964d0f6d2913ff2b36e4c75",
+  		  "name": "fix_file_perms.sh",
+  		  "type": "rootscript",
+		  "url": "https://github.com/Sigma902/macOSBootstrap/raw/master/OOBE-Files/userland/fix_file_perms.sh"
+		}
+    ]
 }
