@@ -15,17 +15,17 @@
 		},
 		{
 		  "file": "/Library/Application Support/installapplications/setTimeServer.sh",
-  		  "hash": "395408a3dc9c3db2b5c200b8722a13a60898c861633b99e6e250186adffd1370",
+  		  "hash": "80d94b9e95c8da2f0f7923aae823871176f202d0d185a3cc52592e651f98fd60",
   		  "name": "Setting Time Server",
   		  "type": "rootscript",
-		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/raw/master/OOBE-Files/userland/setTimeServer.sh"
+		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/userland/setTimeServer.sh"
 		},
 		{
 		  "file": "/Library/Application Support/installapplications/fix_file_perms.sh",
-  		  "hash": "395408a3dc9c3db2b5c200b8722a13a60898c861633b99e6e250186adffd1370",
+  		  "hash": "cd16659dbca1bde1cfd079b6279b1cc0848538e2a964d0f6d2913ff2b36e4c75",
   		  "name": "Verifying File Permissions",
   		  "type": "rootscript",
-		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/raw/master/OOBE-Files/userland/fix_file_perms.sh"
+		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/userland/fix_file_perms.sh"
 		}
     ]
 }
