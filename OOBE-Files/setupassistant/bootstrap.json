@@ -1,19 +1,21 @@
 {  
+	"preflight": [
+	],
 	"setupassistant": [
+	],
+	"userland": [
 		{
 		  "file": "/Library/Application Support/installapplications/01-DEPNotify-Example-1.0.pkg",
 		  "hash": "accac931baf5aa6b2b528af321772b99564070d7c16a8ec4a39cebc4a7b2c122",
 		  "name": "01-DEPNotify-Example-1.0.pkg",
 		  "packageid": "com.vmware.airwatch.depnotify",
 		  "type": "package", 
-		  "url": "https://github.com/Sigma902/macOSBootstrap/raw/master/OOBE-Files/setupassistant/01-DEPNotify-Example-1.0.pkg",
+		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/setupassistant/01-DEPNotify-Example-1.0.pkg",
 		  "version": "1.0"
-		}
-	],
-	"userland": [
+		},
 		{
 		  "file": "/Library/Application Support/installapplications/setTimeServer.sh",
-  		  "hash": "dddf07821ec3de7978a92c38dd769c0c9ab4b59ed6467e37078bce0e65cbdf8c",
+  		  "hash": "80d94b9e95c8da2f0f7923aae823871176f202d0d185a3cc52592e651f98fd60",
   		  "name": "setTimeServer.sh",
   		  "type": "rootscript",
 		  "url": "https://github.com/Sigma902/macOSBootstrap/raw/master/OOBE-Files/userland/setTimeServer.sh"
