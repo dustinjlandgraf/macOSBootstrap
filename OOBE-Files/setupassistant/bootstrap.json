@@ -1,5 +1,7 @@
 {  
 	"preflight": [
+	],
+	"setupassistant": [
 		{
 		  "name": "Set Time Server",
   		  "type": "rootscript",	
@@ -7,9 +9,7 @@
   		  "hash": "2ad7a035373584f58cb5c2744f7a6b479fa1ffbd182b7063f4fa723931bb9f0b",	
 		  "file": "/Library/Application Support/installapplications/setTimeServer.sh",
 		  "donotwait": false
-		}
-	],
-	"setupassistant": [
+		},
 		{
 		  "name": "Serialize for Office 2019",
 		  "type": "package",
