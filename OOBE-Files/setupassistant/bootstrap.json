@@ -11,13 +11,22 @@
 		  "donotwait": false
 		},
 		{
-		  "name": "Serialize for Office 2019",
+		  "name": "WS1 Intelligent Hub",
 		  "type": "package",
-		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/setupassistant/Microsoft_Office_2019_VL_Serializer.pkg",
-		  "hash": "4b3050ec8597ac2971abd32d00bffdb9cc285e3b905ae11d0fb0f37ee0bbc97f",
-		  "file": "/Library/Application Support/installapplications/Microsoft_Office_2019_VL_Serializer.pkg",
-		  "packageid": "com.microsoft.licensing.volume",
-		  "version": "16.17.18080304"	
+		  "url": "https://storage.googleapis.com/getwsone-com-prod/downloads/VMwareWorkspaceONEIntelligentHub.pkg",
+		  "hash": "977ffc16d42223b8b96a8f5da98f0c3a4afc42211f0e11b7bfb64e6b02e2026c",
+		  "file": "/Library/Application Support/installapplications/VMwareWorkspaceONEIntelligentHub.pkg",
+		  "packageid": "com.air-watch.pkg.OSXAgent",
+		  "version": "20.01"	
+		}		  	
+		{
+		  "name": "dockutil",
+		  "type": "package",
+		  "url": "https://github.com/kcrawford/dockutil/releases/download/2.0.5/dockutil-2.0.5.pkg",
+		  "hash": "919edd386f124a1db90e071bbe480fbc4146648573e1fbf4916378d696de365c",
+		  "file": "/Library/Application Support/installapplications/dockutil-2.0.5.pkg",
+		  "packageid": "dockutil.cli.tool",
+		  "version": "2.0.5"	
 		}		  	
 	],
 	"userland": [
@@ -40,11 +49,11 @@
 		{
 		  "name": "MS Outlook 2019",
 		  "type": "package",
-		  "url": "https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/OfficeMac/Microsoft_Outlook_16.19.18110915_Installer.pkg",
-		  "hash": "f94b0c238b0e8c30e381efbba3f6cc5208473fc09f86c9e5acddfdb3279ce58d",
-		  "file": "/Library/Application Support/installapplications/Microsoft_Outlook_16.19.18110915_Installer.pkg",
+		  "url": "https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.34.20020900_Installer.pkg",
+		  "hash": "eaf9db45e5d1c6d7f91323825feedfbfa6004699ef370de39f581993a91a5488",
+		  "file": "/Library/Application Support/installapplications/Microsoft_Outlook_16.34.20020900_Installer.pkg",
 		  "packageid": "com.microsoft.outlook", 
-		  "version": "16.19.18110915"		  		  	  
+		  "version": "16.34.20020900"		  		  	  
 		}
     ]
 }
