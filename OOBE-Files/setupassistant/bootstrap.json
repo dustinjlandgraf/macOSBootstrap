@@ -1,12 +1,12 @@
-{  
+{
 	"preflight": [
 	],
 	"setupassistant": [
 		{
 		  "name": "Set Time Server",
-  		  "type": "rootscript",	
+  		"type": "rootscript",
 		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/userland/setTimeServer.sh",
-  		  "hash": "2ad7a035373584f58cb5c2744f7a6b479fa1ffbd182b7063f4fa723931bb9f0b",	
+  		"hash": "2ad7a035373584f58cb5c2744f7a6b479fa1ffbd182b7063f4fa723931bb9f0b",
 		  "file": "/Library/installapplications/setTimeServer.sh",
 		  "donotwait": false
 		},
@@ -17,8 +17,8 @@
 		  "hash": "977ffc16d42223b8b96a8f5da98f0c3a4afc42211f0e11b7bfb64e6b02e2026c",
 		  "file": "/Library/installapplications/VMwareWorkspaceONEIntelligentHub.pkg",
 		  "packageid": "com.air-watch.pkg.OSXAgent",
-		  "version": "20.01"	
-		},		  	
+		  "version": "20.01"
+		},
 		{
 		  "name": "dockutil",
 		  "type": "package",
@@ -26,8 +26,8 @@
 		  "hash": "919edd386f124a1db90e071bbe480fbc4146648573e1fbf4916378d696de365c",
 		  "file": "/Library/installapplications/dockutil-2.0.5.pkg",
 		  "packageid": "dockutil.cli.tool",
-		  "version": "2.0.5"	
-		}		  	
+		  "version": "2.0.5"
+		}
 	],
 	"userland": [
 		{
@@ -35,16 +35,16 @@
 		  "file": "/Library/installapplications/01-DEPNotify-Example-1.0.pkg",
 		  "hash": "accac931baf5aa6b2b528af321772b99564070d7c16a8ec4a39cebc4a7b2c122",
 		  "packageid": "com.vmware.airwatch.depnotify",
-		  "type": "package", 
+		  "type": "package",
 		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/setupassistant/01-DEPNotify-Example-1.0.pkg",
 		  "version": "1.0"
 		},
 		{
-  		  "name": "Verifying File Permissions",
-  		  "type": "rootscript",
-  		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/userland/fix_file_perms.sh",  
-  		  "hash": "cd16659dbca1bde1cfd079b6279b1cc0848538e2a964d0f6d2913ff2b36e4c75",
-		  "file": "/Library/installapplications/fix_file_perms.sh"
+  		"name": "Verifying File Permissions",
+  		"type": "rootscript",
+  		"url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/userland/fix_file_perms.sh",
+  		"hash": "cd16659dbca1bde1cfd079b6279b1cc0848538e2a964d0f6d2913ff2b36e4c75",
+		 	"file": "/Library/installapplications/fix_file_perms.sh"
 		},
 		{
 		  "name": "MS Outlook 2019",
@@ -52,8 +52,8 @@
 		  "url": "https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.34.20020900_Installer.pkg",
 		  "hash": "eaf9db45e5d1c6d7f91323825feedfbfa6004699ef370de39f581993a91a5488",
 		  "file": "/Library/installapplications/Microsoft_Outlook_16.34.20020900_Installer.pkg",
-		  "packageid": "com.microsoft.outlook", 
-		  "version": "16.34.20020900"		  		  	  
+		  "packageid": "com.microsoft.outlook",
+		  "version": "16.34.20020900"
 		}
     ]
 }
