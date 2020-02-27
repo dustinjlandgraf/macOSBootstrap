@@ -7,7 +7,7 @@
   		"type": "rootscript",
 		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/userland/setTimeServer.sh",
   		"hash": "2ad7a035373584f58cb5c2744f7a6b479fa1ffbd182b7063f4fa723931bb9f0b",
-		  "file": "/Library/installapplications/setTimeServer.sh",
+		  "file": "/Library/installapplications/userscripts/setTimeServer.sh",
 		  "donotwait": false
 		},
 		{
@@ -22,7 +22,7 @@
 		{
 		  "name": "dockutil",
 		  "type": "package",
-		  "url": "https://github.com/kcrawford/dockutil/releases/download/2.0.5/dockutil-2.0.5.pkg",
+		  "url": "https://github-production-release-asset-2e65be.s3.amazonaws.com/2060460/cb873ea6-7a8d-11e6-978b-b1cf68139801?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200227%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200227T210812Z&X-Amz-Expires=300&X-Amz-Signature=1d6570d41933ef1e7e9397d94db5508e96c60e292c4eb490d43d2953b61e794f&X-Amz-SignedHeaders=host&actor_id=5217734&response-content-disposition=attachment%3B%20filename%3Ddockutil-2.0.5.pkg&response-content-type=application%2Foctet-stream",
 		  "hash": "919edd386f124a1db90e071bbe480fbc4146648573e1fbf4916378d696de365c",
 		  "file": "/Library/installapplications/dockutil-2.0.5.pkg",
 		  "packageid": "dockutil.cli.tool",
@@ -44,7 +44,7 @@
   		"type": "rootscript",
   		"url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/userland/fix_file_perms.sh",
   		"hash": "cd16659dbca1bde1cfd079b6279b1cc0848538e2a964d0f6d2913ff2b36e4c75",
-		 	"file": "/Library/installapplications/fix_file_perms.sh"
+		 	"file": "/Library/installapplications/userscripts/fix_file_perms.sh"
 		},
 		{
 		  "name": "MS Outlook 2019",
