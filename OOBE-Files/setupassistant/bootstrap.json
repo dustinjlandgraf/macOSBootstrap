@@ -20,6 +20,15 @@
 		  "version": "20.01"
 		},
 		{
+		  "name": "DEPNotify.pkg",
+		  "file": "/Library/installapplications/DEPNotify.pkg",
+		  "hash": "d969b3f5f617424de526a45f5b8badf1d7cbfef8974691beecb3729103003ba0",
+		  "packageid": "com.vmware.airwatch.depnotify",
+		  "type": "package",
+		  "url": "https://files.nomad.menu/DEPNotify.pkg",
+		  "version": "1.1.5"
+		},
+		{
 		  "name": "dockutil",
 		  "type": "package",
 		  "url": "https://github.com/kcrawford/dockutil/releases/download/2.0.5/dockutil-2.0.5.pkg",
@@ -30,15 +39,7 @@
 		}
 	],
 	"userland": [
-		{
-		  "name": "01-DEPNotify-Example-1.0.pkg",
-		  "file": "/Library/installapplications/01-DEPNotify-Example-1.0.pkg",
-		  "hash": "accac931baf5aa6b2b528af321772b99564070d7c16a8ec4a39cebc4a7b2c122",
-		  "packageid": "com.vmware.airwatch.depnotify",
-		  "type": "package",
-		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/setupassistant/01-DEPNotify-Example-1.0.pkg",
-		  "version": "1.0"
-		},
+
 		{
   		"name": "Verifying File Permissions",
   		"type": "rootscript",
