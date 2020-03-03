@@ -29,13 +29,13 @@
 		  "version": "1.1.5"
 		},
 		{
-		  "name": "dockutil",
+		  "name": "MS Outlook 2019",
 		  "type": "package",
-		  "url": "https://github.com/kcrawford/dockutil/releases/download/2.0.5/dockutil-2.0.5.pkg",
-		  "hash": "919edd386f124a1db90e071bbe480fbc4146648573e1fbf4916378d696de365c",
-		  "file": "/Library/installapplications/dockutil-2.0.5.pkg",
-		  "packageid": "dockutil.cli.tool",
-		  "version": "2.0.5"
+		  "url": "https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.34.20020900_Installer.pkg",
+		  "hash": "eaf9db45e5d1c6d7f91323825feedfbfa6004699ef370de39f581993a91a5488",
+		  "file": "/Library/installapplications/Microsoft_Outlook_16.34.20020900_Installer.pkg",
+		  "packageid": "com.microsoft.outlook",
+		  "version": "16.34.20020900"
 		}
 	],
 	"userland": [
@@ -45,15 +45,6 @@
   		"url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/userland/fix_file_perms.sh",
   		"hash": "cd16659dbca1bde1cfd079b6279b1cc0848538e2a964d0f6d2913ff2b36e4c75",
 		 	"file": "/Library/installapplications/userscripts/fix_file_perms.sh"
-		},
-		{
-		  "name": "MS Outlook 2019",
-		  "type": "package",
-		  "url": "https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.34.20020900_Installer.pkg",
-		  "hash": "eaf9db45e5d1c6d7f91323825feedfbfa6004699ef370de39f581993a91a5488",
-		  "file": "/Library/installapplications/Microsoft_Outlook_16.34.20020900_Installer.pkg",
-		  "packageid": "com.microsoft.outlook",
-		  "version": "16.34.20020900"
 		}
     ]
 }
